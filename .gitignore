@@ -1,0 +1,11 @@
+target/
+*.o
+*.exe
+*.out
+*.tmp
+*.log
+
+.idea/
+.vscode/
+*.swp
+Cargo.lock
