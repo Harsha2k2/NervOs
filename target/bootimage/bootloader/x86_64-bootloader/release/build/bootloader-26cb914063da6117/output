@@ -1,0 +1,7 @@
+cargo:rerun-if-changed=/mnt/d/gehri-os/Cargo.toml
+cargo:rustc-link-search=native=/mnt/d/gehri-os/target/bootimage/bootloader/x86_64-bootloader/release/build/bootloader-26cb914063da6117/out
+cargo:rustc-link-lib=static=kernel_bin-gehri-os
+cargo:rerun-if-env-changed=KERNEL
+cargo:rerun-if-env-changed=KERNEL_MANIFEST
+cargo:rerun-if-changed=/mnt/d/gehri-os/target/x86_64-gehri/debug/gehri-os
+cargo:rerun-if-changed=build.rs
